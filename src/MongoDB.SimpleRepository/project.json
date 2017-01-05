@@ -1,8 +1,21 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.0",
+  "title": "MongoDB Simple Repository",
+  "description": "Simple CRUD repository pattern implementation for .net core MongoDB driver.",
+  "authors": [ "Jase Kirby" ],
+
+  "packOptions": {
+    "licenseUrl": "https://github.com/JaseKirby/MongoDB.SimpleRepository/blob/master/LICENSE",
+    "summary": "CRUD repository pattern implementation for .net core MongoDB driver.",
+    "repository": { "url": "https://github.com/JaseKirby/MongoDB.SimpleRepository" },
+    "owners": [ "Jase Kirby" ],
+    "tags": [ "MongoDB", "Repository", ".net core" ],
+    "releaseNotes": ""
+  },
 
   "dependencies": {
-    "NETStandard.Library": "1.6.0"
+    "NETStandard.Library": "1.6.0",
+    "MongoDB.Driver": "2.4.1"
   },
 
   "frameworks": {
